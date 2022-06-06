@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
  <head>
@@ -8,10 +7,11 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="css/portal.css" />
   <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/table.css" />
  </head>
  <body>
      <header>
-     <h1>Joshua's IT161 Website</h1>
+     <h1>Joshua's AIA Page</h1>
      <nav class="topnav" id="myTopnav">
        <a href="index.html" class="active">Welcome</a>
        <a href="elements.html">HTML Elements</a>
@@ -27,17 +27,124 @@
      </header>
      
    <div class="wrapper">
-     
-     <img class="desktop" src="images/desktop.jpg" alt="Professional photo of me" />
-       
-     <img class="tablet" src="images/tablet.jpg" alt="Photo of me with friends" />
-       
-     <img class="phone" src="images/phone.jpg" alt="Sad photo of me..." />
-       
-       <h2 class="subheader">A little about me!</h2>
-       
-       <p>I grew up on farm in a tiny town in Iowa and moved to Seattle in 2013. I've always been interested in programming and problem-solving, and finally decided to pulled the trigger to enroll in SCC's web development program at 29 years old. Outside of school and work, I mostly spend my time chilling with friends, playing video games, and walking my corgi Porkchop! </p>
-       
+    <table class="client">
+      <thead>
+        <tr>
+        <th colspan="2" id="clienthead">Client Information</th>
+        </tr>
+      </thead>
+      <tr>
+        <th>Client & Final Decision Maker</th>
+        <td>Eva Dong</td>
+      </tr>
+      <tr>
+        <th>Business Name</th>
+        <td>Super Deli Mart</td>
+      </tr>
+      <tr>
+        <th>Redesign or Brand New Website?</th>
+        <td>Redesign. <a href="https://superdmart.com/">superdmart.com</a></td>
+      </tr>
+      <tr>
+        <th>Type of Website</th>
+        <td>Identity, Marketing, Community</td>
+      </tr>
+      <tr>
+        <th>Client's Goal</th>
+        <td>A Better online presence with updated beer information and change site information from previous owners to current owners.</td>
+      </tr>   
+    </table>
+    <table class="audience">
+      <thead>
+        <tr>
+          <th colspan="3">Audience Information</th>
+        </tr>
+        <tr>
+        <th>Audience</th>
+        <th>Issues</th>
+        <th>Approach</th>
+        </tr> 
+      </thead>
+      <tr>
+        <td> 
+          <b>"Hoagie" Customers</b><br>
+          <p>Ages 40 - 80 with basic computer skills. Mostly accessing site on mobile phones using safari or chrome. If on desktop, will most likely use defualt browsers like Edge. Have been shopping here since it was "Hoagie's Corner" in the 70's.</p>
+        </td>
+        <td>
+          <ul>
+            <li>Looking for deli menu and hours</li>
+            <li>Wanting conveince of looking online</li>
+            <li>wants to order online in advance</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Include link to menu at top and first option to make it easier to find</li>
+            <li>Upload image of the original menu sign that's been used since the 70's. Have text menu underneath for accessibility and limited brandwidth users.</li>
+            <li>Have simple ordering system for customers to add sandwiches to cart and allow alteration to condiments, bread, and meat.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>"Beer" Customers</b><br>
+          <p>Ages 20-40 and computer savvy. Typical browsers will be chrome and safari on mobile. Enjoys trying local breweries and always trying the latest beer trend.</p>
+        </td>
+        <td>
+          <ul>
+            <li>Looking for a Tap list and what new beers we are carrying this week</li>
+            <li>Wants to know store hours and when new beer comes in stock</li>
+            <li>Wants a convient way to order a keg through the store</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Have a page with current tap list that includes beer and brewery information</li>
+            <li>Include a sign up form to receive a weekly newsletter that lists new beer in stock and new breweries they started to carry</li>
+            <li>Have a contact form for customers to fill out to get basic information for kegs they want to order and provide basic details on how ordering works and the fees associated with it.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Breweries</b><br>
+          <p>Typically marketing manager or company representative. Is computer savvy and familiar with reaching out to companies and locating information. Most likely to use Chrome or Sarafi browser on desktop.</p>
+        </td>
+        <td>
+          <ul>
+            <li>Looking for companies that can carry their beer or to make a collabration beer with</li>
+            <li>Looking for owner contact information</li>
+            <li>Checking reviews, policies, or morals to see if it will provide a good representation for the company to work together</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Include pictures of the store working together with other breweries</li>
+            <li>Have contact information at the bottom of the page to send an email to the owners</li>
+            <li>Inlcude a landing page on the website to highlight accomplishments, fundraising events, and donations that the company has worked with in the past</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <b>Local Companies</b><br>
+          <p>Ages range from late 20s to 40 and is typically women. Has basic computer skills and usually using Safari browser on desktop</p>
+        </td>
+        <td>
+          <ul>
+            <li>Looking for contact information to reach out to the owner</li>
+            <li>Checking to see if we stock products from small local companies</li>
+            <li>Looking for more information on how we split profits or how much product we buy</li>
+          </ul>
+        </td>
+        <td>
+          <ul>
+            <li>Have contact information at the bottom of the page</li>
+            <li>have a small paragraph at the bottom  of the home page letting them know to reach out if they're interested in selling with us and if they have any questions</li>
+          </ul>
+        </td>
+      </tr>    
+    </table>
      <footer>
       <p><small>&copy; 2021 by 
           <a href="contact.php">Joshua Danielson</a>, All Rights Reserved ~ 
